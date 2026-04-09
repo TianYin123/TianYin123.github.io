@@ -11,54 +11,54 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Computer Science**, City University of Hong Kong, expected to start in June 2026
+* **B.Eng. in Electronics and Information Engineering**, Huazhong University of Science and Technology, 2023
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Assistant**, Healthcare Analytics & Neural Intelligence Lab, City University of Hong Kong (Dongguan), 2024-2026
+  * Research on LLM reasoning, medical AI, medical agents, and multimodal reasoning
+  * Worked on problem formulation, method design, experiments, and paper writing
+  * Led and co-led multiple projects in medical reasoning and medical VLMs
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* LLM reasoning
+* Trustworthy and verifiable medical AI
+* Medical agents and clinical workflow abstraction
+* Multimodal reasoning and medical VLMs
+* Reflection, self-correction, and synthetic data for reasoning
+
+Selected Projects
+======
+* **Med-REFL: Medical Reasoning Enhancement via Self-Corrected Fine-grained Reflection**
+  * Led the project from idea to paper writing
+  * Designed a fine-grained reflection pipeline with Tree-of-Thought style structure and DPO-based training signals
+
+* **QM-ToT: A Medical Tree of Thoughts Reasoning Framework for Quantized Model**
+  * Helped formulate the project and design a quantization-aware reasoning framework for medical LLMs
+
+* **Better Eyes, Better Thoughts: Why Vision Chain-of-Thought Fails in Medicine**
+  * Proposed the core idea and led the design and writing for a study of multimodal reasoning failures in medicine
+
+Methods and Skills
+======
+* Chain-of-Thought and Tree-of-Thought reasoning
+* Self-reflection and self-correction
+* DPO and preference data construction
+* Quantized LLM reasoning
+* Medical LLM evaluation
+* Medical VLM and multimodal reasoning
+* RAG and agent-style reasoning systems
+* Failure analysis and benchmark-based evaluation
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Links
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* GitHub: [TianYin123](https://github.com/TianYin123)
+* Google Scholar: [Profile](https://scholar.google.com/citations?user=soS8EY4AAAAJ&hl=en)
