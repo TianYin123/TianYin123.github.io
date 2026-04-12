@@ -24,7 +24,7 @@
     padding-top: $masthead-height;
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -147,7 +147,7 @@
   // set width only, for non-square avatars
   // height: 36px;
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     display: block;
     width: auto;
     height: auto;
@@ -157,7 +157,7 @@
     max-width: 175px;
     border-radius: 50%;
 
-    @include breakpoint($large) {
+    @include breakpoint($sidebar-screen-min-width) {
       padding: 5px;
       border: 1px solid var(--global-border-color);
     }
@@ -171,7 +171,7 @@
   padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     display: block;
     width: 100%;
     padding-left: 0;
@@ -182,7 +182,7 @@
 .author__name {
   margin: 0;
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -194,7 +194,7 @@
 
 .sidebar .author__desktop {
   display: none;
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     display: block;
   }
 }
@@ -202,7 +202,7 @@
 .author__pronouns {
   margin: 0;
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -211,7 +211,7 @@
 .author__bio {
   margin: 0;
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -232,14 +232,14 @@
     }
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     display: block;
   }
 
   button {
     margin-bottom: 0;
 
-    @include breakpoint($large) {
+    @include breakpoint($sidebar-screen-min-width) {
       display: none;
     }
   }
@@ -259,7 +259,7 @@
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 
-  @include breakpoint($large) {
+  @include breakpoint($sidebar-screen-min-width) {
     display: block;
     position: relative;
     margin: 0;
@@ -281,7 +281,7 @@
     border-color: var(--global-border-color) transparent;
     z-index: 0;
 
-    @include breakpoint($large) {
+    @include breakpoint($sidebar-screen-min-width) {
       display: none;
     }
   }
@@ -298,7 +298,7 @@
     border-color: #fff transparent;
     z-index: 1;
 
-    @include breakpoint($large) {
+    @include breakpoint($sidebar-screen-min-width) {
       display: none;
     }
   }

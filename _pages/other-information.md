@@ -7,13 +7,11 @@ author_profile: true
 Interesting Work
 ======
 
-This section is a small place for the papers, projects, and research styles that I keep returning to. I am especially drawn to work that treats reasoning as a process that should be inspectable, correctable, and grounded in real decision making.
+The three works below are interesting to me for the same reason: they use toy models and careful experimental design to make reasoning behavior more interpretable.
 
 - **[RL Grokking Recipe: How Does RL Unlock and Transfer New Algorithms in LLMs?](https://arxiv.org/pdf/2509.21016)**
-  This work is especially interesting to me because it is highly explanatory in spirit and comes with a very strong experimental design.
-
 - **[On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Models](https://github.com/Interplay-LM-Reasoning/Interplay-LM-Reasoning)**
-  I like this work for the same reason: it is explanatory in spirit and unusually careful in how the experiments are designed.
+- **[Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens](https://arxiv.org/pdf/2508.01191)**
 
 Friendship
 ======
